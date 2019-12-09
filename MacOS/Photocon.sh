@@ -1,8 +1,7 @@
 #!/bin/sh
-cd /usr/bin
+cd ~/Applications/Photocon
 
-git pull origin master https://github.com/JSisques/Photocon.git
-
-cd Photocon/src
+git pull origin master
+cd src
 
 python3 main.py
