@@ -23,6 +23,7 @@ def main():
 
 def menu():
     print("[1] ==> Organizar archivos")
+    print("[2] ==> Covertir fotos (NO IMPLEMENTADO))")
     print("[0] ==> Salir")
     option = int(input("Elige una opcion: "))
     return option
