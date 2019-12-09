@@ -3,14 +3,6 @@ from tkinter.filedialog import askopenfilename
 from tkinter import *
 import os
 import shutil
-'''
-root_window = Tk()
-root_window.title("Photo")
-root_window.geometry("600x400") #TamaNo
-root_window.mainloop()
-root.filename =  filedialog.askopenfilename(initialdir = "/",title = "Select file",filetypes = (("jpeg files","*.jpg"),("all files","*.*")))
-print (root.filename)
-'''
 
 def main():
     while True:
@@ -22,6 +14,7 @@ def main():
 
 
 def menu():
+    print("**************** PHOTOCON ****************")
     print("[1] ==> Organizar archivos")
     print("[2] ==> Covertir fotos (NO IMPLEMENTADO))")
     print("[0] ==> Salir")
